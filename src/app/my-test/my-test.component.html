@@ -1,1 +1,5 @@
-<p>my-test works!</p>
+<button (click)="onAddElement()">Click me to add something!</button>
+
+<ol id="list">
+  <li class="list-item" *ngFor="let element of elements">{{element}}</li>
+</ol>
